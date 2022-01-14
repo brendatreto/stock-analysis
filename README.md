@@ -34,9 +34,22 @@ This excercise comes in handy when we want to make information available for eve
 
 8. We kept the same code to give format to the results. A key step in the visualization part of the process. We also needed to stop the timer and print the result to make sure that our purpose was achieved.
 
-The results speak for themselves.
+Let's take a look at the results.
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/22451540/149434682-ad343c40-c144-4189-86dc-58abb2dd0cbe.png)
+_2017, the elapsed time went from 1.48 seconds to 0.23
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/22451540/149434695-64120d40-f189-4a6e-b884-6f1265d50ad4.png)
+_2018, the elapsed time went from 1.46 seconds to 0.25
 
+## Summary
+### Advantages and disadvantages of refactoring code
+#### Advantages
+* There is always room for improvement, one small change can make the process more efficient and more useful for analyzing bigger datasets.
+* Appearance can improve, and as it is often mentioned, code is more often read than written. It is in good practice to write simple code.
+#### Disadvantages
+* We should be extra-careful not to modify the outcomes.
+* It could be a time-consuming process. (But it should be seen as an investment for the future)
+### Refactoring the original VBA script
+Refactoring the original script was definitely time-consuming and challenging. It demanded (at least on my part) a lot of focus in keeping the results intact. However, the process made it easier to read and more efficient.
 
