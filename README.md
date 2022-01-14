@@ -34,3 +34,9 @@ This excercise comes in handy when we want to make information available for eve
 
 8. We kept the same code to give format to the results. A key step in the visualization part of the process. We also needed to stop the timer and print the result to make sure that our purpose was achieved.
 
+The results speak for themselves.
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/22451540/149434682-ad343c40-c144-4189-86dc-58abb2dd0cbe.png)
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/22451540/149434695-64120d40-f189-4a6e-b884-6f1265d50ad4.png)
+
+
