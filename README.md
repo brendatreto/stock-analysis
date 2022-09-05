@@ -37,10 +37,12 @@ This exercise comes in handy when we want to make information available for ever
 Let's look at the results.
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/22451540/149434682-ad343c40-c144-4189-86dc-58abb2dd0cbe.png)
-_2017, the elapsed time went from 1.48 seconds to 0.23
+
+2017, the elapsed time went from 1.48 seconds to 0.23
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/22451540/149434695-64120d40-f189-4a6e-b884-6f1265d50ad4.png)
-_2018, the elapsed time went from 1.46 seconds to 0.25
+
+2018, the elapsed time went from 1.46 seconds to 0.25
 
 ## Summary
 ### Advantages and disadvantages of refactoring code
