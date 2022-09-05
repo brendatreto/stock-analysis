@@ -7,7 +7,7 @@ With this in mind, and with the help of VBA tools we expanded the analysis to in
 The results were satisfactory, but as it is often said, there is always room for improvement, and this is where this project comes in handy. Refactoring this code could help it run faster and accomplish the same tasks in a more efficient manner. 
 
 ### Background
-During the last couple of weeks, we were building a VBA script to run through the dataset. In the process, we were learning about loops, conditionals, variables, formatting and other VBA features. However, although the code we wrote to analyze the stocks was working, it was not at its best. For instance the elapsed time to run the analysis was around 1.4 seconds
+During the last couple of weeks, we were building a VBA script to run through the dataset. In the process, we were learning about loops, conditionals, variables, formatting, and other VBA features. However, although the code we wrote to analyze the stocks was working, it was not at its best. For instance, the elapsed time to run the analysis was around 1.4 seconds
 
 ![2017_runtime](https://user-images.githubusercontent.com/22451540/149431742-09074fe5-363f-40dc-8997-ab25e859dc49.png)
 
@@ -17,7 +17,7 @@ During the last couple of weeks, we were building a VBA script to run through th
 ### Stock performance
 We can tell that this analysis is working by looking at the "All Stocks Analysis" worksheet. Instead of going over hundreds of numbers, we can tell, simply by the color formatting the overall performance of the stocks. Even without diving deep into the data it is evident that 2017 was a better year for green energy stocks, compared to 2018.
 
-This excercise comes in handy when we want to make information available for everyone, even those who have no background experience with the stock market, just like Steve's parents. 
+This exercise comes in handy when we want to make information available for everyone, even those who have no background experience with the stock market, just like Steve's parents. 
 ### Refactoring the code
 1. We kept the first part of the code as it was. Initialize variables to count the elapsed time of the analysis after asking for the user's input. We also created a header row to organize our information.
 2. The next step stayed the same as well, initializing an array for all tickers, activating the data worksheet depending on the user's input and counting the rows to loop over.
@@ -27,14 +27,14 @@ This excercise comes in handy when we want to make information available for eve
 ![Step 4](https://user-images.githubusercontent.com/22451540/149433732-1656c568-a80f-4928-be58-a59a4d8e9c6f.PNG)
 
 5. Once the arrays were declared, we could start with our first for loops (2a) and initialize the volume of each ticker (previously stated in the arrays) in zero.
-6. The next step followe pretty much the same structure as the starting code. We first used conditionals to make sure that the rows we were analyzing corresponded to the first and last pieces of information of that ticker, and used that information to increase the volume of each index.
+6. The next step follows pretty much the same structure as the starting code. We first used conditionals to make sure that the rows we were analyzing corresponded to the first and last pieces of information of that ticker and used that information to increase the volume of each index.
 7. We used a different for loop to build the output of our analysis, and again were able to save valuable seconds by referencing the previously created arrays.
 
 ![Step 7](https://user-images.githubusercontent.com/22451540/149434384-18c62c8d-1ad2-42d4-8ba5-b1189cb29ad9.PNG)
 
 8. We kept the same code to give format to the results. A key step in the visualization part of the process. We also needed to stop the timer and print the result to make sure that our purpose was achieved.
 
-Let's take a look at the results.
+Let's look at the results.
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/22451540/149434682-ad343c40-c144-4189-86dc-58abb2dd0cbe.png)
 _2017, the elapsed time went from 1.48 seconds to 0.23
@@ -51,5 +51,5 @@ _2018, the elapsed time went from 1.46 seconds to 0.25
 * We should be extra-careful not to modify the outcomes.
 * It could be a time-consuming process. (But it should be seen as an investment for the future)
 ### Refactoring the original VBA script
-Refactoring the original script was definitely time-consuming and challenging. It demanded (at least on my part) a lot of focus in keeping the results intact. However, the process made it easier to read and more efficient.
+Refactoring the original script was time-consuming and challenging. It demanded (at least on my part) a lot of focus in keeping the results intact. However, the process made it easier to read and more efficient.
 
